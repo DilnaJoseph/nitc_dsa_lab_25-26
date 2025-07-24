@@ -1,7 +1,8 @@
 /*
-Q8. Add Two Numbers Represented by Linked Lists
-Two numbers are stored in reverse order as linked lists; add them and return the sum
-as a new linked list.
+Linked List-Based Problems
+Q10. Check if Linked List is a Palindrome
+Determine whether the linked list forms a palindrome (reads the same forwards and
+backwards).
 */
 
 #include<stdio.h>
