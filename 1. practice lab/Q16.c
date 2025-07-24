@@ -23,7 +23,7 @@ for(int i=front;i<=rear;i++){
   }
 }
 
-void enqueue(int tokens[],int no){
+void enqueue(int tokens[],int no,int n){
  if (rear == n - 1) {
      printf("Queue is full!\n");
     return;
@@ -57,7 +57,7 @@ if(m==1){
   int no;
   printf("Enter number to enqueue: ");
   scanf(" %d",&no);
-  enqueue(tokens,no);
+  enqueue(tokens,no,n);
   display(tokens);
  }
 else if(m==2){
